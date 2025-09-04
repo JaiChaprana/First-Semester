@@ -18,4 +18,4 @@ Each assignment is implemented as a separate file and solves a specific problem.
 | **Assignment 8** | Computes gross and net salary from basic salary and allowances. |
 | **Assignment 9** | Prints all odd numbers within a user-defined range. |
 | **Assignment 10** | Calculates a telephone bill based on usage. |
-
+| **Mini project** | Cinema hall ticket booking system |
