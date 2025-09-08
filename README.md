@@ -19,3 +19,4 @@ Each assignment is implemented as a separate file and solves a specific problem.
 | **Assignment 9** | Prints all odd numbers within a user-defined range. |
 | **Assignment 10** | Calculates a telephone bill based on usage. |
 | **Mini project** | Cinema hall ticket booking system |
+| **Array1**       | Multiple projects based on arrays|
