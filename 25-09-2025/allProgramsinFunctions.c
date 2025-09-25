@@ -18,11 +18,11 @@ char countWord(char c[100]) {
         }
     }
 
-    printf("Total Characters are: %d\n", charCount );
-    printf("Total Digits are: %d\n", digCount );
-    printf("Total Special Characters are: %d\n", spcCount - 1 );
-    printf("Total Words are: %d\n", wordCount + 1);
-    printf("Total number of characters are: %d", i-1);
+    printf("\nTotal Characters are: %d\n", charCount );
+    printf("\nTotal Digits are: %d\n", digCount );
+    printf("\nTotal Special Characters are: %d\n", spcCount - 1 );
+    printf("\nTotal Words are: %d\n", wordCount + 1);
+    printf("\nTotal number of characters are: %d", i-1);
 
     return '0';
 }
@@ -37,7 +37,7 @@ char caseChange(char c[100]) {
         }
     }
 
-    printf("New sentence is: ");
+    printf("\nNew sentence is: ");
 
     for (int i = 0; c[i] != '\0'; i++) {
         printf("%c", c[i]);
@@ -62,7 +62,7 @@ char palindrome(char c[100]) {
 
     // Output the result
     if (flag) {
-        printf("%s is not a palindrome\n", c);
+        printf("\n%s is not a palindrome", c);
     } else {
         printf("%s is a palindrome\n", c);
     }
@@ -74,7 +74,7 @@ int main() {
 
     printf("Enter a string: ");
     fgets(c, sizeof(c), stdin);
-    printf("You just typed: ");
+    printf("\nYou just typed: ");
 
     for (int i = 0; c[i] != '\0'; i++) {
         printf("%c", c[i]);
