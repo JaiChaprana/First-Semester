@@ -20,7 +20,7 @@ char countWord(char c[100]) {
 
     printf("\nTotal Characters are: %d\n", charCount );
     printf("\nTotal Digits are: %d\n", digCount );
-    printf("\nTotal Special Characters are: %d\n", spcCount - 1 );
+    printf("\nTotal Special Characters are (space included): %d\n", spcCount - 1 );
     printf("\nTotal Words are: %d\n", wordCount + 1);
     printf("\nTotal number of characters are: %d", i-1);
 
@@ -85,3 +85,4 @@ int main() {
     caseChange(c);
     palindrome(c);
 }
+
